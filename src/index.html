@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Tailwind</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="flex flex-col justify-center items-center gap-8 bg-white min-h-screen">     
+        
+        <!-- Body (Login Container) -->
+        <div class="w-50 flex flex-col items-start rounded-2xl shadow-lg p-5 bg-opacity-25 bg-primary-50">
+            
+            <!-- Login Header -->
+            <h3 class="text-3xl font-semibold text-primary mb-2">Welcome</h3>
+            <h5 class="text-gray-700 text-base">Bangunindo Design System</h5>     
+            
+            <!-- Section Form -->
+            <div class="pt-10">
+                <form class="flex flex-col gap-5 mb-5">
+                    <input type="text" placeholder="username" class="py-[10px] px-4 bg-gray-10 text-gray-100 rounded-lg">
+                    <input type="password" placeholder="password" class="py-[10px] px-4 bg-gray-10 text-gray-100 rounded-lg">
+                    
+                    <div class="flex gap-[10px]">
+                        <input type="checkbox" id="rememberMe" class="">
+                        <label for="rememberMe"> Remember Me</label>
+                    </div>
+    
+                    <button class="bg-primary-500 rounded-lg p-2 mb-5"> Sign In </button>
+                    
+                    <!-- Forget password -->
+                    <a href="/" class="text-center text-[14px] tracking-[0.75px]">Forget your password?</a>
+                </form>
+
+                <!-- Button Sign Up -->
+                <div class="flex justify-between items-center gap-5 mt-5">
+                    <p>Don't have an account? Create now!</p>
+                    <button class="text text-primary-600 border-2 border-primary-600 rounded-lg py-[10px] px-4">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Brand Container -->
+        <div class="flex flex-col justify-center items-center gap-4 p-6">
+            <img src="img/logo2.png" class="mt-30">
+        </div>
+    </div>
+
+</body>
+</html>
